@@ -12,6 +12,7 @@ Term: Spring 2020
 	+ Petkun, Michael | mjp2262@columbia.edu
 	+ Wolansky, Ivan | iaw2110@columbia.edu
 	+ Yang, Wenjun | wy2347@columbia.edu
++ Presenter: Ni, Jiayun
 
 **Project summary**:  This project consists of building a collaborative filtering method for the recommendation system, using Alternating Least Squares algorithm (ALS). Penalty of Magnitudes is used for regularization and both K-Nearest Neighbors algorithm (KNN) and Kernel Ridge Regression algorithm (KRR) are used in post-processing.
 Our goal is to see the difference between the two models:
@@ -29,14 +30,6 @@ Method | KNN | Linear Kernel | Guassian Kernel
 RMSE | 0.898 | 0.9477 | 1.4146 
 Total Time | 1116.56s | 12.27s | 13.14s
 
-
-**Contribution statement**: All team members approve our work presented in this GitHub repository including this contributions statement.
-+ Team members
-	+ Liu, Jiawei:
-	+ Ni, Jiayun: Responsible for the post-processing part of KNN method. Debugged and test the models. Prepare for the presentation for the project. Update the README file on github.
-	+ Petkun, Michael: Made major contributions to the matrix factorization & regularization models, as well as the kernel ridge regression model. Combined the team's code into the Main.Rmd file.
-	+ Wolansky, Ivan: Made some contribution to the matrix factorization & regularization models. Also, experimented with different methods of dealing with the cold-start problem. Additionally, helped prepare the presentation for the project, while making some edits to the README.
-	+ Yang, Wenjun: Wrote the preliminary version of KNN and KRR, and update the README file on github.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 s
